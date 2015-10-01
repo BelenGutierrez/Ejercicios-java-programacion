@@ -19,8 +19,7 @@ public class C3ejercicio01 {
 
     int total =  primerNumero * segundoNumero;
 
-    System.out.print("El primer número introducido es " + primerNumero);
-    System.out.println(" y el segundo es " + segundoNumero);
+    
     System.out.print("El resultado de la multiplicacion es ");
     System.out.print(total);   
   } 

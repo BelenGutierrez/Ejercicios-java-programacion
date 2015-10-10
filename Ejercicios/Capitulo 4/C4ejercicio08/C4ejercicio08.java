@@ -1,11 +1,12 @@
  /**
  *
- * Realiza un programa que calcule la media de tres notas
+ * Amplía el programa anterior para que diga la nota del boletín ( Insuficiente,
+ * Suficiente, Bien, Notable o Sobresaliente)
  *
  * @author Belén Gutierrez
  */
 
-public class C4ejercicio07 {  
+public class C4ejercicio08 {  
   public static void main(String[] args) {
     
      
@@ -25,7 +26,20 @@ public class C4ejercicio07 {
       (primeraNota > 10) || (segundaNota > 10 ) || (terceraNota > 10 )) {
       System.out.println("Por favor verifique que las notas sean del 1 al 10");
     } else {
-    System.out.printf("La nota media es: %1.2f" , promedio  );
+      System.out.printf("Tu promedio es: %1.2f "  , promedio );
+    } 
+    
+    if (( promedio >= 0) && ( promedio < 5)) {
+      System.out.println("Tu nota media es: Insuficiente");
+    } else if ((promedio >= 5) && ( promedio < 6)) {
+      System.out.println("Tu nota media es: Suficiente");
+    } else if ((promedio >= 6) && ( promedio <= 7)) {
+      System.out.println("Tu nota media es: Bien");
+    } else if ((promedio >= 7) && ( promedio < 9)) {
+      System.out.println("Tu nota media es: Notable");
+    } else if ((promedio >= 9) && ( promedio <= 10)) {
+      System.out.println("Tu nota media es: Sobresaliente, Felicidades ");
     }
+  
   }
 }

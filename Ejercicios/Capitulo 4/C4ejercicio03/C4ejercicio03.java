@@ -44,7 +44,7 @@ public class C4ejercicio03 {
         break;
       
       default: 
-        System.out.println("Por favor introduzca un número del 1 al 7");
+        System.out.println("El número no es correcto,por favor introduzca un número del 1 al 7");
     }         
   }
 }

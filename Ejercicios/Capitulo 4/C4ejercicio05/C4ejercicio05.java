@@ -12,14 +12,17 @@ public class C4ejercicio05 {
      
     System.out.println("Este programa calcula una ecuación de 1º grado del tipo ax + b = 0" );
     System.out.print("Por favor, introduzca el valor de a:  ");
-    Double primeraIncognita = Double.parseDouble (System.console().readLine());
+    double primeraIncognita = Double.parseDouble (System.console().readLine());
     
     System.out.print("Por favor, ahora introduzca el valor de b:  ");
-    Double segundaIncognita = Double.parseDouble (System.console().readLine());
+    double segundaIncognita = Double.parseDouble (System.console().readLine());
     
     
     if (primeraIncognita == 0) {
-      System.out.println("Esta ecuación tiene resultado infinito");
+      System.out.println("No se puede dividir por cero");
+    }
+    if (segundaIncognita == 0) {
+      System.out.println("Si la segunda incognita es cero, el resultado será cero");
     } else {
       System.out.println("El valor de x es:" + (-segundaIncognita / primeraIncognita ));
     }

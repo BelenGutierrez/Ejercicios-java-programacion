@@ -23,10 +23,12 @@ public class C4ejercicio02 {
     if ((hora >= 13) && (hora <= 20)) {
       System.out.println("Buenas tardes");
     } 
-    if ((hora >= 21) || (hora <= 5)) {
+    if ((hora >= 21) && (hora <=24) || (hora <= 5)) {
       System.out.println("Buenas noches");
-    }else{
-      System.out.print("Hora no válida. ");
     }
+    if (hora >24) {
+      System.out.print("Hora no válida. "); 
+    }
+    
   }
 }

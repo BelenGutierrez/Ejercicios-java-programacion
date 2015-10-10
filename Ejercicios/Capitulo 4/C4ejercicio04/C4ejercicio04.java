@@ -12,10 +12,9 @@
 public class C4ejercicio04 {
   public static void main(String[] args) {
     
-    String linea;
-     
+       
     System.out.println("Este programa calcula el salario semanal" );
-    System.out.print("Por favor, introduzca las horas ordinarias trabajadas:  ");
+    System.out.print("Por favor, introduzca las horas ordinarias trabajadas: ");
     int horasTrabajadas = Integer.parseInt (System.console().readLine());
     
     System.out.print("Por favor, ahora introduzca las horas extras:  ");
@@ -24,7 +23,7 @@ public class C4ejercicio04 {
     int sueldoSemanal;
 
       
-    if (horasTrabajadas < 40) {
+    if (horasTrabajadas <= 40) {
       sueldoSemanal = 12 * horasTrabajadas;
     } else {
       sueldoSemanal = (40 * 12) + (horasExtras * 16);    

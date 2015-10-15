@@ -20,7 +20,9 @@ public class C4ejercicio14 {
     
     if (numero == 0 ) {
       System.out.println("El número introducido ni es par ni es divisible por ningún número"); 
-    } else if ((numero % 2 ) == 0)  {
+    } else {
+    }
+    if ((numero % 2 ) == 0)  {
       System.out.println("El número es par " );
     } else { 
       System.out.println("El número es impar " );

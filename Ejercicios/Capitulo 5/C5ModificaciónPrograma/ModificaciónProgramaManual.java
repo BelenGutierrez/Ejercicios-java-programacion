@@ -12,16 +12,19 @@ public class ModificaciónProgramaManual {
     
     do {
       System.out.println("Dime un número, por favor");
-      int numero = Integer.parseInt(System.console().readline());
+      numero = Integer.parseInt(System.console().readLine());
+      
       if (numero % 2 == 0) {
-      System.out.println("Qué bonito es el " + numero);
+        System.out.println("Qué bonito es el " + numero);
+        
+       System.out.println("Desea continuar ?  responda: s / n ");
+       respuesta = System.console().readLine(); 
+        
+        
       } else {
-      
-      System.out.printl("No me gustan los números impares, adiós ");
+        System.out.println("No me gustan los números impares, adiós ");
       }
-      System.out.printl("Desea continuar ?  responda: "s"  o  "n" ");
-      respuesta = System.console().readline();
-      
+     
     } while (numero % 2 == 0);
   }
 }

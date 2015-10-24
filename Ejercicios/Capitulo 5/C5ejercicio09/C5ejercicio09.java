@@ -17,7 +17,7 @@ public class C5ejercicio09 {
     n = numeroIntroducido;
     
     while (n > 10) {
-      n /= 10;
+      n = n / 10;
       numeroDeDigitos++;
     }
     

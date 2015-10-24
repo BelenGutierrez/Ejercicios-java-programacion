@@ -21,7 +21,11 @@ public class C5ejercicio07 {
       System.out.print("Introduzca la clave, por favor: ");
       numeroIntroducido = Integer.parseInt(System.console().readLine());
       
-         
+      if ((numeroIntroducido < 1000)  || (numeroIntroducido > 9999)) {
+        System.out.println("La clave debe ser de 4 cifras\n");
+        intentos--;
+      }
+        
       if (numeroIntroducido == 3289) {
         acertado = true;
       } else {

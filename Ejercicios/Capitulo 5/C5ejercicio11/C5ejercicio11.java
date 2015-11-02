@@ -25,14 +25,11 @@ public class C5ejercicio11 {
     do {
       cuadrado = cantidad * cantidad;
       cubo = cuadrado * cantidad;
-      //numIntro++;
       System.out.println(cantidad + " \t " + cuadrado + " \t \t "+ cubo);
       cantidad++;
       
      
           
     } while  (cantidad <= numIntro + 4) ;      
-     
-     //System.out.println(numIntro + cuadrado + cubo);
   }
 }

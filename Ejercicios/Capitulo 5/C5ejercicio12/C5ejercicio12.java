@@ -36,12 +36,11 @@ public class C5ejercicio12 {
       if (cantElementos == 2) {
         System.out.println("Los dos primeros números de la serie Fibonacci son: 0,1");
       } 
-      
+      if (cantElementos > 2) {
       System.out.print("Los números de la serie son:  0,1" );
-      
+      }
       
        while(cantElementos > 2) {
-        //System.out.print("Los números de la serie son:  0,1" );
         aux = numAnterior;
         numAnterior = numPosterior;
         numPosterior = aux + numPosterior;

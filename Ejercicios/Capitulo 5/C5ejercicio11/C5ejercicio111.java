@@ -18,8 +18,7 @@ public class C5ejercicio111 {
     System.out.println("\nIntroduzca un número y le mostraré el cuadrado y el cubo de ese y los 4 siguientes.");
     numIntro = Integer.parseInt(System.console().readLine());
 
-    //cantidad = numIntro;
-    
+        
     System.out.println("Numero \t Cuadrado \t Cubo");
     
     do {
@@ -33,7 +32,5 @@ public class C5ejercicio111 {
      
           
     } while  (cantidad <= 5) ;      
-     
-     //System.out.println(numIntro + cuadrado + cubo);
   }
 }

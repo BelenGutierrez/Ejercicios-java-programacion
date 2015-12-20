@@ -1,46 +1,37 @@
 /**
- *  Muestra 50 números enteros aleatorios entre 100 y 199 (ambos incluidos)
- *  separados por espacios. Muestra el máximo, el mínimo y la media de esos números.
+ * 
+ *  Muestra 50 num aleat, max, min, y media.
  * 
  * @author Belén Gutierrez
  */
 public class C6ejercicio05 {
+
   public static void main(String[] args) {
     
-    int numAleatorio;
-    int minimo = 199;
-    int maximo = 100;
-    int suma = 0;
     
-    System.out.print("Este programa muestra 50 números aleatorios entre 100 y 199\n ");
-
-    for (int i = 0; i < 50; i++) {
-      numAleatorio = (int)(Math.random()*100) + 100;
-      System.out.print(numAleatorio + " ");
-      suma = suma + numAleatorio;
-           
-     if (numAleatorio < minimo) {
-        minimo = numAleatorio;
+    int i;
+    int numero;
+    int suma = 0;
+    int max = 100;
+    int min = 199;
+    
+        
+     for ( i = 0; i < 50; i++) {  
+        numero = (int)(Math.random()*100) + 100;
+        System.out.print(numero + " ");
+        suma += numero;
+            
+        if (numero < min) {
+        min = numero;
+        }
+       
+        if (numero > max) {
+        max = numero;
+        }
       }
       
-      if (numAleatorio > maximo) {
-        maximo = numAleatorio;
-      }
-    }
-    
-    System.out.println("\nMínimo: " + minimo + "\nMáximo: " + maximo + "\nMedia: " + suma / 50);  
+       System.out.println("\nLa media es: " + suma / 50); 
+       System.out.println("El max: " + max); 
+       System.out.println("El min es: " + min); 
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

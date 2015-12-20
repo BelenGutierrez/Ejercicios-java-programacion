@@ -42,7 +42,7 @@ public class C6ejercicio14 {
     } while(!acertado && (oportunidades > 0));
     
     if (!acertado) {
-      System.out.println("Vaya, no he conseguido acertar el número.");
+      System.out.println("lo siento, perdí.");
     }
   }
 }

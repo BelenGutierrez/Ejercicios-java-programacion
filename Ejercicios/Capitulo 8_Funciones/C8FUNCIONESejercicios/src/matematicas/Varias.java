@@ -1,5 +1,5 @@
 /*
- * Biblioteca de Funciones
+ * Biblioteca de Funciones de Matematicas varias.
  */
 package matematicas;
 

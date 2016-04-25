@@ -25,6 +25,7 @@ public class PruebaDisco {
     int eleccion = 0;
 
     Disco[] gramola = new Disco[4];
+    
     for (int i = 0; i < gramola.length; i++) {
       gramola[i] = new Disco();
 
@@ -49,11 +50,8 @@ public class PruebaDisco {
 
           for (int i = 0; i < gramola.length; i++) {
 
-            System.out.print("\nCódigo: " + gramola[i].getCodigo()
-                    + "\nAutor: " + gramola[i].getAutor()
-                    + "\nTítulo: " + gramola[i].getTitulo()
-                    + "\nGénero: " + gramola[i].getGenero()
-                    + "\nDuración: " + gramola[i].getDuracion());
+            System.out.print( gramola[i]);
+                   
             System.out.println("");
           }
           break;

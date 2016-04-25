@@ -29,7 +29,7 @@ public class Pizza {
   
   @Override
   public String toString() {
-   return "pizza " + this.sabor + " " + this.tamano + ", " + this.estado;
+   return "pizza " + this.sabor + ", " + this.tamano + ", " + this.estado;
   }
   public String getEstado() {
     return estado;

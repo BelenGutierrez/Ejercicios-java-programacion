@@ -56,6 +56,7 @@ return duracion;
 public void setDuracion(int duracion) {
 this.duracion = duracion;
 }
+
 public static int getId() {
 return id;
 
@@ -66,8 +67,7 @@ public static void incrementaId() {
 
 @Override
 public String toString() {
-String cadena = "\n------------------------------------------";
-cadena += "\nCódigo: " + this.codigo;
+String cadena =  "\nCódigo: " + this.codigo;
 cadena += "\nAutor: " + this.autor;
 cadena += "\nTítulo: " + this.titulo;
 cadena += "\nGénero: " + this.genero;

@@ -19,7 +19,7 @@ public class C10ejercicio01 {
   public static void main(String[] args) {
     
     
-     ArrayList<String> compis = new ArrayList<String>();
+     ArrayList<String> compis = new ArrayList<>();
 
     compis.add("Alba");
     compis.add("Eli");

@@ -27,8 +27,8 @@ public class Ejemplo09 {
 
     System.out.println("\nDatos de los gatos:\n");
 
-    for (Gato gatoAux : g) {
-      System.out.println(gatoAux + "\n");
+    for (Gato gatito : g) {
+      System.out.println(gatito + "\n");
     }
     
     /*System.out.println(g);*/

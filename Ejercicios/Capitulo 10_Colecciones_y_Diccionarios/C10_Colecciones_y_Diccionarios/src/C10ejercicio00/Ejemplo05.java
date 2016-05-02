@@ -7,12 +7,14 @@ package C10ejercicio00;
 
 import java.util.ArrayList;
 
+
+
 /**
  *
  * @author belen
+public class Ejemplo05 {
  */
 public class Ejemplo05 {
-
   /**
    * @param args the command line arguments
    */

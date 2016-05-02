@@ -31,8 +31,8 @@ Collections.sort(g);
 
 System.out.println("\nDatos de los gatos ordenados por nombre:");
 
-for (Gato gatoAux: g) {
-System.out.println(gatoAux+"\n");
+for (Gato gatito: g) {
+System.out.println(gatito+"\n");
 }
   }
   

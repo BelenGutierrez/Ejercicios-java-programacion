@@ -35,8 +35,8 @@ public class PruebaDisco {
 
     ArrayList<Disco> gramola = new ArrayList<>();
 
-    gramola.add(new Disco());
-    gramola.add(new Disco());
+   // gramola.add(new Disco());
+    //gramola.add(new Disco());
 
 
     /*for (int i = 0; i < gramola.length; i++) {
@@ -191,7 +191,7 @@ public class PruebaDisco {
 
               int indice = gramola.indexOf(d);
 
-              System.out.println("Introduzca los nuevos datos del disco o INTRO para dejarlos igual.");
+              System.out.println("Introduzca los nuevos datos del disco. ");
 
               System.out.println("Código: " + gramola.get(indice).getCodigo());
               System.out.print("Nuevo código: ");
@@ -226,10 +226,13 @@ public class PruebaDisco {
 
         case 4:
 
-          System.out.print("Indique el Id del disco que desea borrar:  \n ");
+           String opcion;
+           
+           
+          System.out.print("Indique el código del disco que desea borrar:  \n ");
           System.out.print("Código: ");
           codigoIntro = (s.nextLine());
-          String opcion;
+         
 
           for (Disco d : gramola) {
 

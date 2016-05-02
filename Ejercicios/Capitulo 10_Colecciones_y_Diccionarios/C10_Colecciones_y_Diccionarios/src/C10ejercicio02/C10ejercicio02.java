@@ -21,7 +21,7 @@ public class C10ejercicio02 {
   public static void main(String[] args) {
     
 
-    ArrayList<Integer> miArray = new ArrayList<Integer>();
+    ArrayList<Integer> miArray = new ArrayList<>();
     
     int suma = 0;
     int minimo = 100;

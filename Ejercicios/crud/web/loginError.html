@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Cuentas Bancarias</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">    
+  </head>
+  <body>
+    <div>
+      <form action="validarUsuario.jsp" method="post">
+        <h1>CUENTAS BANCARIAS</h1>
+        <h2 style="color:red">El usuario o contraseña introducidos no son correctos.</h2>
+        <label for="nombreUsuario">Usuario: </label>
+        <input type="text" id="nombreUsuario" name="idUsuario" autofocus="autofocus" 
+               required="required" placeholder="Nombre...">
+        <label for="contraseniaUsuario">Contraseña: </label>
+        <input type="password" id="contraseniaUsuario" name="passUsuario" 
+               required="required" placeholder="Contraseña...">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">   
+      </form>
+    </div>
+  </body>
+</html>
